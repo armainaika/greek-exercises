@@ -1,4 +1,4 @@
-# greek_exercise
+# greek_exercises
 
 > a website, which creates an exercise from a greek text. currently only does exercises with verbs : )
 
