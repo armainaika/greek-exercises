@@ -8,6 +8,8 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwindcss)](https://tailwindcss.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
+![](demo.gif)
+
 this repository contains:
 
 - **backend:** FastAPI + Stanza
