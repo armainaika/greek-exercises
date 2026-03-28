@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./backend
+    container_name: greek-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        BACKEND_URL: http://backend:8000
+    container_name: greek-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    environment:
+      BACKEND_URL: http://backend:8000
